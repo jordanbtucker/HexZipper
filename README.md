@@ -17,6 +17,10 @@ Examples:
     and writes the result to outfile.dat
 ```
 
+## Requirements
+
+- .NET Framework 4.7.2 or later
+
 ## Download
 
 See [Releases](https://github.com/jordanbtucker/HexZipper/releases).
