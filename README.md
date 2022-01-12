@@ -14,7 +14,7 @@ hexzipper <options> <out-filename>
 Examples:
   hexzipper -i file1.dat -n 32 -i file2.dat -n 16 outfile.dat
     Zips 32 bytes from file1.dat with 16 bytes from file2.dat
-    and writes the result to outfile.dat
+    and writes the result to outfile.dat.
 ```
 
 ## Requirements
