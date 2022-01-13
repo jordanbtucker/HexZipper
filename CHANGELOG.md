@@ -8,6 +8,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-01-12
+
 ### Breaking Changes
 
 - The `--output, -o` argument has been added, and it must be provided.
@@ -35,5 +37,6 @@ and this project adheres to
 
 - Initial implementation
 
-[unreleased]: https://github.com/jordanbtucker/HexZipper/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/jordanbtucker/HexZipper/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/jordanbtucker/HexZipper/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/jordanbtucker/HexZipper/releases/tag/v0.1.0
