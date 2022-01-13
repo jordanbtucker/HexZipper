@@ -8,13 +8,32 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Breaking Changes
+
+- The `--output, -o` argument has been added, and it must be provided.
+
+  ```bash
+  # Correct
+  HexZipper -i in1.dat -n 32 -i in2.dat -n 16 -o out.dat
+
+  # Incorrect
+  HexZipper -i in1.dat -n 32 -i in2.dat -n 16 out.dat
+  ```
+
+### Added
+
+- Files can be unzipped with the `--unzip, -u` argument now.
+
+  ```bash
+  # Example
+  HexZipper -u -i in.dat -n 32 -o out1.dat -n 16 -o out2.dat
+  ```
+
 ## [0.1.0] - 2021-01-12
 
 ### Added
 
 - Initial implementation
 
-[unreleased]:
-  https://github.com/jordanbtucker/HexZipper/compare/v0.1.0...HEAD
-[0.1.0]:
-  https://github.com/jordanbtucker/HexZipper/releases/tag/v0.1.0
+[unreleased]: https://github.com/jordanbtucker/HexZipper/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/jordanbtucker/HexZipper/releases/tag/v0.1.0

@@ -1,25 +1,35 @@
 # HexZipper
 
-Zips the binary data of two or more files.
+Zips and unzips the binary data of two or more files.
 
 ## Usage
 
 ```
-hexzipper <options> <out-filename>
-  Options:
-    --help, -h       Displays this message.
-    --input, -i      The input filename. Must be provided at least twice.
-    --num-bytes, -n  The number of bytes. Must be provided at least twice.
-  <out-filename>     The filename of the resulting zipped data.
+HexZipper <arguments>
+  Arguments:
+    --help, -h       Display this message.
+    --unzip, -u      Unzip input files instead of zipping.
+    --input, -i      The input filename(s). Must be provided at least twice if
+                     zipping.
+    --output, -o     The output filename(s). Must be provided at least twice if
+                     unzipping.
+    --num-bytes, -n  The number of bytes in the block. Must be provided at
+                     least twice.
+
 Examples:
-  hexzipper -i file1.dat -n 32 -i file2.dat -n 16 outfile.dat
-    Zips 32 bytes from file1.dat with 16 bytes from file2.dat
-    and writes the result to outfile.dat.
+  HexZipper -i input1.dat -n 32 -i input2.dat -n 16 output.dat
+    Zips 32-byte blocks from input1.dat with 16-byte blocks from input2.dat and
+    writes the result to output.dat.
+
+  HexZipper -u -i input.dat -o output1.dat -n 32 output2.dat -n 16
+    Unzips input.dat storing 32-byte blocks into output1.dat and 16-byte blocks
+    into output2.dat.
 ```
 
 ## Requirements
 
-- .NET Framework 4.7.2 or later
+- [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472)
+  or later
 
 ## Download
 

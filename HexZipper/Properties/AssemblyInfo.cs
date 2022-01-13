@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("HexZipper")]
-[assembly: AssemblyDescription("Zips the binary data of two or more files.")]
+[assembly: AssemblyDescription("Zips and unzips the binary data of two or more files.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Jordan Tucker")]
 [assembly: AssemblyProduct("HexZipper")]
