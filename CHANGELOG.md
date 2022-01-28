@@ -8,6 +8,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- The `--help, -h` argument displays the correct usage for the `--output, -o`
+  argument.
+
 ## [0.2.0] - 2021-01-12
 
 ### Breaking Changes

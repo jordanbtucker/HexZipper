@@ -180,11 +180,11 @@ namespace HexZipper
             Console.WriteLine("                     least twice.");
             Console.WriteLine();
             Console.WriteLine("Examples:");
-            Console.WriteLine("  HexZipper -i input1.dat -n 32 -i input2.dat -n 16 output.dat");
+            Console.WriteLine("  HexZipper -i input1.dat -n 32 -i input2.dat -n 16 -o output.dat");
             Console.WriteLine("    Zips 32-byte blocks from input1.dat with 16-byte blocks from input2.dat and");
             Console.WriteLine("    writes the result to output.dat.");
             Console.WriteLine();
-            Console.WriteLine("  HexZipper -u -i input.dat -o output1.dat -n 32 output2.dat -n 16");
+            Console.WriteLine("  HexZipper -u -i input.dat -o output1.dat -n 32 -o output2.dat -n 16");
             Console.WriteLine("    Unzips input.dat storing 32-byte blocks into output1.dat and 16-byte blocks");
             Console.WriteLine("    into output2.dat.");
         }
